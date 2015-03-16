@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartScheduler.Core", "SmartScheduler.Core\SmartScheduler.Core.csproj", "{283ED941-9A6E-4774-A153-ECB2D8A82F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartScheduler.Core.Tests", "SmartScheduler.Core.Tests\SmartScheduler.Core.Tests.csproj", "{776F75B2-1435-40ED-8CA5-EFE3FC3E7C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartScheduler.FileLoader", "SmartScheduler.FileLoader\SmartScheduler.FileLoader.csproj", "{8DC585CB-4BF4-4A4B-99F8-21B906F0F9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartScheduler.SchedulerApplication", "SmartScheduler.Scheduler\SmartScheduler.SchedulerApplication.csproj", "{7482E8A3-2F79-4D90-9B50-E78510FB6325}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{283ED941-9A6E-4774-A153-ECB2D8A82F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283ED941-9A6E-4774-A153-ECB2D8A82F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283ED941-9A6E-4774-A153-ECB2D8A82F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283ED941-9A6E-4774-A153-ECB2D8A82F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776F75B2-1435-40ED-8CA5-EFE3FC3E7C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776F75B2-1435-40ED-8CA5-EFE3FC3E7C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776F75B2-1435-40ED-8CA5-EFE3FC3E7C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776F75B2-1435-40ED-8CA5-EFE3FC3E7C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC585CB-4BF4-4A4B-99F8-21B906F0F9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC585CB-4BF4-4A4B-99F8-21B906F0F9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC585CB-4BF4-4A4B-99F8-21B906F0F9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC585CB-4BF4-4A4B-99F8-21B906F0F9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7482E8A3-2F79-4D90-9B50-E78510FB6325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7482E8A3-2F79-4D90-9B50-E78510FB6325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7482E8A3-2F79-4D90-9B50-E78510FB6325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7482E8A3-2F79-4D90-9B50-E78510FB6325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
